@@ -1,5 +1,3 @@
-let g= () =>{
-  document.getElementById('g').innerHTML='G';
-}
-g()
-document.write("galaxy");
+let k="kg"
+      document.getElementById("demo").innerHTML=k;
+      alert("welcome");
