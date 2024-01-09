@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<noscript>noscript</noscript>
+<script type="module">
+'use strict';
+import m from "./g.js";
+//x=1;
+debugger;
+document.getElementById('g').innerHTML=m();
+class C{
+constructor(a){
+this.c=a;
+}
+f(a){return a}
+}
+var o = new C(1);
+alert(o.c);
+alert(o.f(0));
+  </script>
+<p id='g'></p>
+</body>
+</html>
