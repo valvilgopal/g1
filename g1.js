@@ -1,1 +1,1 @@
-var g =() =>{return ,'external js'}
+var g =() =>{return ,'external js'};
