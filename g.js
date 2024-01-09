@@ -1,4 +1,4 @@
 //const m = () => { return 'G'};
 //let m = () => { return 'G'};
-var g = () => { return 'go'};
+var g = () => { return ''};
 export default g;
