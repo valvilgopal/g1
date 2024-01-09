@@ -1,3 +1,1 @@
-let k="kg"
-      document.getElementById("demo").innerHTML=k;
-      alert("welcome");
+var g =() =>{return ,'external js'}
