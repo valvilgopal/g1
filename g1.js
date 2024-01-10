@@ -1,1 +1,2 @@
-document.getElementById("demo").innerHTML="external.js";
+let k="kg"
+      document.getElementById("m").innerHTML=k;
