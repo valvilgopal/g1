@@ -1,2 +1,2 @@
-var g =() =>{return ,'external js'};
-document.getElementById("demo").innerHTML=g();
+
+document.getElementById("demo").innerHTML="external.js";
