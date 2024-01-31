@@ -7,12 +7,17 @@
 <script type="module">
 'use strict';
 import m from"./m.js";
-document.getElementById('m').innerHTML=m();
-for(;;)
-console.log("m")
-//for(var i=1; i <= 10; i++)
-//window.alert(i)
+//document.getElementById('m').innerHTML=m();
+//for(;;)
+for(var i=1; i < 600; i++)
+  {
+    if(i%60===0)
+  {
+    document.getElementById("m").innerHTML +=`<br/>`;
+  }
+   document.getElementById("m").innerHTML +="m";
+  }
 </script>
-<p id='m'></p>
+<div style="color.red;" id='m'></div>
 </body>
 </html>
